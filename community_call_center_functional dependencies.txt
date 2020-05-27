@@ -1,0 +1,18 @@
+Author: Chantal Shirley
+FILE: community_call_center_functional_dependencies
+DATE: 2019-04-08
+DESCRIPTIOPN:
+	This is a functional dependency document related to the community
+	call center database for CIS-335 Relational Database and SQL.
+
+TABLE: counselors
+couselor_id --> counselor_first_name, counselor_last_name, counselor_status
+
+TABLE: callers
+caller_id --> caller_gender, caller_first_name, caller_last_name
+
+TABLE:call_logs
+call_log_id, [caller_id], [counselor_id] --> caller_phone_number, start_time, end_time, call_date
+
+TABLE:
+intake_id, [call_log_id] --> referral_status, referral_follow_up, police_called, ambulance_called	
