@@ -12,3 +12,6 @@
 * Outlined functional dependencies for the database
 
 * Developed a Database Dictionary outlining the utility, data types, and purpose behind the database's structure
+
+_Table Design_
+![E-R Diagram](png_file_ER_Model_Community_Call_Center.png)
